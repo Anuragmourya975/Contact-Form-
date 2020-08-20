@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Basic Things I added-->
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="author" content="cname">
+  <!--Add company's name in content above named as cname-->
+  <title>Contact Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="icon" href="hmm.ico" type="image/x-icon">
+  <!--Icon for our company-->
+</head>
+<body>
+  <div id="storer" class="centered">
+    <h1>Verify that you are connecting to this store</h1>
+    <h2>$storename$</h2>
+    <img src="images/storepic.png" class=".storepic">
+    <button id="connect">Connect</button>
+  </div>
+
+  <div class="form centered" id="form">
+    <h2>$storename$</h2>
+  <form action="Hello.html" onsubmit="return formvalidate()" method="post">
+    <div class="input">
+    <input type="text" id="fName" required=""><label for="fname">First Name</label>
+  </div>
+    <div class="input"><input type="text" id="sName" required=""><label for="sname">Last Name</label>
+    </div>
+    <div class="input"><input type="text" id="phno" required=""><label for="phno">Whatsapp No.</label>
+    </div>
+    <div class="inputx">
+    <input type="checkbox" id="term">
+    <label for="terms">I agree to your Terms and conditions</label>
+    </div>
+    <input type="submit">
+  </form>
+</div>
+</body>
+<script src="scripts/app.js"></script>
+</html>
