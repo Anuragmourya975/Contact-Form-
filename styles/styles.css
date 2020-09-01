@@ -6,7 +6,7 @@ body {
   background-color:#f8f7f7;
   color:black;
   font-family:Roboto;
-  overflow:hidden;
+  
 }
 .centered {
   position: fixed;
@@ -54,10 +54,7 @@ button{
   width:98%;
   max-width:400px;
   border-radius:13px;
-  padding:15px;
-  
-  
-  
+  padding:15px; 
 }
 input{
   border:none;
