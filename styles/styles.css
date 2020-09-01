@@ -3,7 +3,7 @@
   src: url(Roboto.ttf);
 }
 body {
-  background-color:#f8f8f8;;
+  background-color:#f8f7f7;
   color:black;
   font-family:Roboto;
   overflow: hidden;
@@ -127,8 +127,7 @@ h2{
   color:#BBBBBB;
 }
 @media only screen and (max-width: 430px) {
-  .centered{
-    
+  .centered{border:none; 
   }
 }
 .form .input input:focus ~ label {
