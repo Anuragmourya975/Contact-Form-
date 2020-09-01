@@ -3,7 +3,7 @@
   src: url(Roboto.ttf);
 }
 body {
-  background-color:#ffffff;
+  background-color:#f8f8f8;;
   color:black;
   font-family:Roboto;
   overflow: hidden;
@@ -62,7 +62,7 @@ input{
   border:none;
 }
 #connect{
-  background-color: #205474;
+  background-color: rgb(27, 170, 27);
   margin-left:auto;
   margin-right:auto;
   width:98%;
@@ -73,7 +73,7 @@ input{
   color:white;
 }
 input[type=submit] {
-  background-color: #205474;
+  background-color:rgb(27, 170, 27);
   margin-top:116px;
   margin-left: 2.5px;
   margin-right:auto;
@@ -128,7 +128,7 @@ h2{
 }
 @media only screen and (max-width: 430px) {
   .centered{
-    border:none;
+    
   }
 }
 .form .input input:focus ~ label {
