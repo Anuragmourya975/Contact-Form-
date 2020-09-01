@@ -57,6 +57,9 @@ button{
   border-radius:13px;
   padding:15px;  
   height: fit-content;
+  max-height: -webkit-fill-available;
+  overflow: scroll;
+}
 }
 input{
   border:none;
