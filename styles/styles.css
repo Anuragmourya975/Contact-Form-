@@ -130,9 +130,7 @@ h2{
     border:none;
     overflow: scroll;
   }
-  .form{ 
-    margin:auto;
-  }
+  
 }
 .form .input input:focus ~ label {
   top:-20px;
