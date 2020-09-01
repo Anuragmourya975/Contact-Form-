@@ -131,7 +131,7 @@ h2{
     overflow: scroll;
   }
   .form{ 
-    margin-top:20px;
+    margin:auto;
   }
 }
 .form .input input:focus ~ label {
