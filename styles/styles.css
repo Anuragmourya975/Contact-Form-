@@ -131,6 +131,7 @@ h2{
 @media only screen and (max-width: 430px) {
   .centered{
     position: absolute;
+    max-height:-webkit-fill-available;
     overflow: scroll;
     border:none;
     
